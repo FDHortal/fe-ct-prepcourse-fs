@@ -146,4 +146,22 @@
 // la consola arroja el result = 120
 
 
-// Metodo ARGUMENTS
+// Objeto ARGUMENTS
+// function saludo(nombre, apellido){
+//     console.log(arguments[1])
+// }
+
+// saludo('Vero', "Diaz") en consola muestra la posicion de los argumentos
+// ej posicion Diaz es 1, de Vero es 0
+
+// Args
+// function suma(...args){
+//     console.log(args)
+//     let suma = 0;
+//     for (let arg of args) suma = suma + arg;
+//         return suma
+// }    
+
+// var x = suma(4,8,9,12,45,31)
+
+// console.log(x);
